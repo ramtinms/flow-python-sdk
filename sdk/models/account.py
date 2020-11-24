@@ -1,6 +1,5 @@
 from enum import Enum
 
-
 class SigningAlgorithm(Enum):
     # Unknown Signing Algorithm 
     UnknownSigningAlgorithm = 0

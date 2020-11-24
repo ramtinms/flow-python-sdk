@@ -26,11 +26,11 @@ class Block(object):
     def __str__(self):
         # TODO iterate over block seals and collections
         return f"""
-        Block \{id: {self.block_id_hex()}
-                height: {self.height}
-                parent_block_id: {self.parent_block_id_hex()}
-                timestamp: {self.timestamp.isoformat()}
-              \}
+        Block 
+            id: {self.block_id_hex()}
+            height: {self.height}
+            parent_block_id: {self.parent_block_id_hex()}
+            timestamp: {self.timestamp.isoformat()}
         """
 
     @classmethod
